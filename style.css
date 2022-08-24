@@ -1,0 +1,53 @@
+body {
+    text-align: center;
+  }
+p{
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: deeppink;
+    color: white;
+    border-radius: 20px 20px 0px 0px / 20px 20px 0px 0px;
+}
+ div{
+    display: inline-block;
+    border: 2px solid deeppink;
+    border-radius: 20px 20px 20px 20px / 20px 20px 20px 20px;
+    width: 550px;
+    height: 700px;
+    background-color: snow;
+ }
+  #register_text {
+    width: 350px;
+    height: 20px;
+    border-color: deeppink;
+  }
+  button {
+    width: 50px;
+    height: 30px;
+    border : none;
+    background-color: deeppink;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px 5px 5px 5px / 5px 5px 5px 5px;
+  }
+  ul {
+    list-style: none;
+    text-align: left;
+    margin-left: 10%;
+    font-weight: bold;
+    color:deeppink;
+  }
+  li {
+    margin-bottom: 10px;
+  }
+  
+  li.checked {
+    font-weight: lighter;
+    text-decoration: line-through;
+    font-style: italic;
+    color:gray
+  }
